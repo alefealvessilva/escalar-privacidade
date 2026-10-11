@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escalar — Política de Privacidade</title>
+<style>
+  :root { --texto: #1b1f27; --apagado: #5f6673; --borda: #dee1da; --fundo: #f2f3ef; --azul: #2450c8; }
+  body { margin: 0; background: var(--fundo); color: var(--texto);
+         font: 16px/1.6 "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  article { background: #fff; border: 1px solid var(--borda); border-radius: 12px; padding: 28px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+  .data { color: var(--apagado); margin: 0 0 20px; }
+  a { color: var(--azul); }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<article>
+<h1>Política de Privacidade do Escalar</h1>
+<p class="data">Editor: asclabs · Vigente desde 11/10/2026</p>
+
+<p>O Escalar é um aplicativo para o gestor montar escalas de trabalho, marcar férias e conferir as regras
+trabalhistas. Ele funciona <strong>inteiramente no seu computador</strong>: nenhum dado sai do aparelho pelo
+aplicativo, e o editor (asclabs) não recebe, não vê e não guarda nenhuma informação sua ou dos colaboradores.</p>
+
+<h2>Quem é responsável pelos dados</h2>
+<p>Os dados cadastrados no Escalar pertencem à empresa que usa o aplicativo, que é a controladora nos termos da
+Lei Geral de Proteção de Dados (Lei 13.709/2018). Pedidos de acesso, correção ou exclusão de dados de um
+colaborador devem ser feitos à empresa empregadora. O aplicativo tem as ferramentas para atendê-los (exportar os
+dados da pessoa e anonimizar o cadastro).</p>
+
+<h2>Quais dados o aplicativo guarda</h2>
+<ul>
+  <li>Dos colaboradores: nome, matrícula, setor, centro de custo, função, equipe, turno, gestor imediato, data
+    de admissão, habilidades e foto (opcional, só com autorização da pessoa).</li>
+  <li>Marcadores ligados às regras da CLT: aprendiz, menor de 18 anos (sem data de nascimento) e ferista.</li>
+  <li>Escalas, férias e ausências (só o tipo e as datas, nunca o motivo).</li>
+  <li>Dos usuários do aplicativo: login, nome de exibição, perfil e a senha guardada em forma irreversível
+    (hash).</li>
+  <li>Um registro de auditoria das alterações, que nunca contém nomes, só identificadores.</li>
+</ul>
+
+<h2>O que o aplicativo não guarda</h2>
+<p>CPF, RG, PIS, endereço, telefone ou e-mail pessoal, data de nascimento, CID, diagnóstico, motivo de atestado
+ou qualquer outro dado de saúde ou dado sensível.</p>
+
+<h2>Segurança</h2>
+<ul>
+  <li>O banco de dados é criptografado (SQLCipher, AES-256), com a chave guardada no cofre do Windows.</li>
+  <li>O acesso exige login com senha, e cada perfil vê só o que lhe cabe.</li>
+  <li>O backup é um arquivo criptografado com uma senha escolhida por você.</li>
+</ul>
+
+<h2>Internet e terceiros</h2>
+<p>O Escalar não usa internet para os dados: não tem conta na nuvem, sincronização, anúncios, telemetria,
+estatísticas de uso nem envio de relatórios de erro. Quando você pede para avisar a equipe, o aplicativo abre o
+seu programa de e-mail ou o WhatsApp com a mensagem pronta, e quem decide enviar é você.</p>
+
+<h2>Arquivos que você exporta</h2>
+<p>PDFs, planilhas CSV e backups são salvos onde você escolher. A partir daí, a guarda desses arquivos é
+responsabilidade de quem os exportou, seguindo as regras da empresa.</p>
+
+<h2>Exclusão</h2>
+<p>Desinstalar o aplicativo apaga os dados guardados no computador. Faça um backup antes, se quiser mantê-los.</p>
+
+<h2>Contato</h2>
+<p>Dúvidas sobre esta política: <a href="mailto:alefeasc@gmail.com">alefeasc@gmail.com</a>.</p>
+</article>
+</main>
+</body>
+</html>
